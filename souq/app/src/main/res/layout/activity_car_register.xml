@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:visibility="visible">
+
+
+
+
+        <com.example.asmaa.souq.Custom_Views.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="سجــــل بياناتك العربيه "
+            android:textColor="@color/white"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:textSize="20dp"
+            android:id="@+id/toolbar_title" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:src="@drawable/back_arrow"
+            />
+
+        <com.example.asmaa.souq.Custom_Views.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:text="الرجوع"
+            android:id="@+id/back_CarRigster"
+
+            />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:background="@color/black"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                app:srcCompat="@drawable/cover"
+                android:id="@+id/imageView"
+                />
+
+            <com.example.asmaa.souq.Custom_Views.CustomTextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_marginRight="35dp"
+                android:text="نوع العربية"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:id="@+id/textview" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CarType_Spinner"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+
+                >
+
+            </Spinner>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+
+
+
+                />
+
+
+
+            <com.example.asmaa.souq.Custom_Views.CustomTextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:text="الموديل "
+                android:layout_marginRight="35dp"
+                android:ems="10"
+                android:id="@+id/editText2" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CarModel_Spinner"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+
+                >
+
+            </Spinner>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+
+
+
+                />
+            <com.example.asmaa.souq.Custom_Views.CustomTextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:text="@string/year"
+            android:layout_marginRight="35dp"
+            android:ems="10"
+            android:id="@+id/editText5" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CarYear_Spinner"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+
+                >
+
+            </Spinner>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+
+
+
+                />
+            <com.example.asmaa.souq.Custom_Views.CustomTextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:text="@string/CarCarry"
+                android:layout_marginRight="35dp"
+                android:ems="10"
+                android:id="@+id/editText6" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CarCarry_Spinner"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+
+                >
+
+            </Spinner>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <com.jkb.vcedittext.VerificationCodeEditText
+                    android:layout_width="181dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    app:bottomLineHeight="2dp"
+                    app:bottomLineNormalColor="@color/grey"
+                    app:bottomLineSelectedColor="@color/colorAccent"
+                    app:figures="6"
+                    app:verCodeMargin="5dp"
+                    android:id="@+id/plate_no_edittext" />
+
+                <com.example.asmaa.souq.Custom_Views.CustomTextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:text="@string/NumOfPaper"
+                    android:layout_marginRight="35dp"
+                    android:textColor="@color/black"
+                    android:ems="10"
+                    />
+
+
+
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                />
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:src="@drawable/registerbutton"
+                android:background="@color/grey"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/btn_register_car" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@color/black"
+                android:src="@drawable/helpbutton"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/help_CarRigister" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

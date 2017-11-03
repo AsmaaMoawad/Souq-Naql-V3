@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundstartpage"
+    tools:context="com.example.asmaa.souq.Activities.StartPage"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="70dp">
+
+        <ImageView
+            android:layout_width="255dp"
+            android:layout_height="249dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_gravity="center"
+            android:id="@+id/imageView2" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            >
+
+            <com.example.asmaa.souq.Custom_Views.CustomButton
+                android:text="قم بالاشتراك"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/white"
+                android:background="@drawable/buttonpartener"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RegisterStart"
+                android:layout_weight="1" />
+
+            <com.example.asmaa.souq.Custom_Views.CustomButton
+                android:text="مشترك"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/buttonpartener"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/LoginStart"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            app:srcCompat="@drawable/helpbutton"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/help_Startpage" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">"souq "</string>
+    <string name="LoginDataCar">سجل</string>
+    <string name="NumOfPaper">رقم اللوحـــه</string>
+    <string name="CallUs">او كلمنا نساعدك</string>
+    <string name="year">السنه</string>
+    <string name="CarCarry">حموله العربيه</string>
+    <string name="invalid_phone">من فضلك ادخل رقم الهاتف الصحيح</string>
+    <string name="invalid_age">Age must be between 12 and 60.</string>
+    <string name="invalid_password">من فضلك ادخل الرقم السرى اكثر او يساوى 6</string>
+    <string name="invalid_name">من فضلك ادخل الاسم لا يقل عن ثلاثة حروف</string>
+    <string name="invalid_licenceNo">من فضلك رقم الرخصه يجب ان يكون 7 ارقام</string>
+    <string-array name="list_district">
+        <item>المعادى </item>
+        <item>المقطم</item>
+        <item>القاهره الجديده</item>
+        <item>التجمع الخامس </item>
+        <item>مدينه نصر</item>
+
+    </string-array>
+    <string-array name="car_type">
+        <item>Kia</item>
+        <item>marcides</item>
+        <item>sheforlet</item>
+        <item>BMW</item>
+        <item>NESAN</item>
+    </string-array>
+    <string-array name="car_model">
+        <item>Skoda Kodiaq</item>
+        <item>Maruti Suzuki S-Cross</item>
+        <item>Tata Nexon</item>
+        <item>New Hyundai Verna</item>
+
+    </string-array>
+    <string-array name="car_year">
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+    </string-array>
+    <string-array name="car_carry">
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+    </string-array>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
